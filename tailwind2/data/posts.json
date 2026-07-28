@@ -1,0 +1,164 @@
+{
+  "blog": {
+    "name": "The Daily Byte",
+    "tagline": "Stories That Inspire",
+    "description": "Discover insightful articles on technology, design, and creativity."
+  },
+  "categories": [
+    { "id": "programming", "name": "Programming", "icon": "💻", "count": 42 },
+    { "id": "design", "name": "Design", "icon": "🎨", "count": 35 },
+    { "id": "ai-ml", "name": "AI & ML", "icon": "🤖", "count": 28 },
+    { "id": "mobile", "name": "Mobile", "icon": "📱", "count": 19 },
+    { "id": "devops", "name": "DevOps", "icon": "☁️", "count": 23 },
+    { "id": "startups", "name": "Startups", "icon": "🚀", "count": 15 }
+  ],
+  "tags": [
+    "JavaScript", "React", "Node.js", "CSS", "TypeScript", "TailwindCSS", "Python", "UX"
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Art of Writing Clean Code: A Developer's Guide",
+      "excerpt": "Discover the principles and best practices that make code not just functional, but elegant and maintainable for years to come.",
+      "content": "Clean code is not just about making your code work — it's about making it readable, maintainable, and elegant. In this comprehensive guide, we explore the fundamental principles that every developer should follow.\n\n## Why Clean Code Matters\n\nWriting clean code is essential for long-term project success. When your code is clean, it's easier for other developers (including your future self) to understand, modify, and extend.\n\n## Key Principles\n\n1. **Meaningful Names** — Variables, functions, and classes should reveal their purpose\n2. **Single Responsibility** — Each function should do one thing and do it well\n3. **DRY (Don't Repeat Yourself)** — Avoid code duplication\n4. **Comments** — Code should be self-documenting; use comments only when necessary\n5. **Error Handling** — Handle errors gracefully without cluttering the main logic\n\n## Practical Examples\n\nInstead of writing `x = x + 1`, write `userCount = userCount + 1`. Small changes like this make code dramatically more readable.\n\n## Conclusion\n\nClean code is a habit, not a destination. Start implementing these practices today and watch your codebase transform.",
+      "image": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "Alice Morgan",
+        "avatar": "https://ui-avatars.com/api/?name=Alice+Morgan&size=64&background=6366f1&color=fff",
+        "role": "Senior Developer"
+      },
+      "date": "Jan 15, 2026",
+      "readTime": "8 min read",
+      "category": "programming",
+      "tags": ["JavaScript", "Best Practices"],
+      "badgeColor": "indigo",
+      "featured": true
+    },
+    {
+      "id": 2,
+      "title": "UI Design Trends That Will Dominate This Year",
+      "excerpt": "From glassmorphism to AI-generated interfaces, explore the design trends shaping the digital landscape in 2026.",
+      "content": "The design world is evolving faster than ever. Here are the trends that are defining the visual language of 2026.\n\n## 1. AI-Powered Design Systems\n\nDesign tools are now leveraging AI to generate entire component libraries, color palettes, and layouts based on brand guidelines.\n\n## 2. Glassmorphism 2.0\n\nThe frosted glass effect is back with more sophisticated blur effects and layered transparency.\n\n## 3. Micro-Interactions\n\nSubtle animations and feedback loops that make interfaces feel alive and responsive to user input.\n\n## 4. Dark Mode as Default\n\nMore applications are launching with dark mode as the primary theme, with light mode as an option.\n\n## 5. 3D Elements in Web\n\nWith WebGL becoming more accessible, expect to see more 3D elements integrated into standard web pages.\n\n## Conclusion\n\nThe key to great design in 2026 is balancing innovation with usability. Don't follow trends blindly — adapt them to serve your users.",
+      "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "Marcus Lee",
+        "avatar": "https://ui-avatars.com/api/?name=Marcus+Lee&size=64&background=ec4899&color=fff",
+        "role": "UI/UX Designer"
+      },
+      "date": "Jan 12, 2026",
+      "readTime": "6 min read",
+      "category": "design",
+      "tags": ["Design", "Trends"],
+      "badgeColor": "pink",
+      "featured": true
+    },
+    {
+      "id": 3,
+      "title": "How AI Is Transforming the Way We Build Software",
+      "excerpt": "Artificial intelligence is no longer a buzzword — it's embedded in our development workflows. Here's how it's changing everything.",
+      "content": "AI is fundamentally reshaping software development. From code generation to automated testing, the landscape is changing rapidly.\n\n## AI Code Assistants\n\nTools like GitHub Copilot and ChatGPT have become integral parts of the developer toolkit, helping write code faster and with fewer bugs.\n\n## Automated Testing\n\nAI can now generate test cases, identify edge cases, and even predict where bugs are most likely to occur in your codebase.\n\n## Design-to-Code\n\nAI tools can convert design mockups directly into functional code, dramatically reducing the time from design to deployment.\n\n## Intelligent Debugging\n\nAI-powered debugging tools can analyze error logs, suggest fixes, and even automatically resolve common issues.\n\n## The Future\n\nWhile AI won't replace developers, developers who use AI will replace those who don't. Embrace these tools to stay ahead.",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "Sarah Chen",
+        "avatar": "https://ui-avatars.com/api/?name=Sarah+Chen&size=64&background=10b981&color=fff",
+        "role": "AI Researcher"
+      },
+      "date": "Jan 10, 2026",
+      "readTime": "10 min read",
+      "category": "ai-ml",
+      "tags": ["AI", "Technology"],
+      "badgeColor": "emerald",
+      "featured": true
+    },
+    {
+      "id": 4,
+      "title": "10 Debugging Techniques Every Developer Should Know",
+      "excerpt": "Master these debugging strategies to squash bugs faster and write more reliable code.",
+      "content": "Debugging is an essential skill that separates good developers from great ones. Here are 10 techniques that will level up your debugging game.\n\n## 1. Rubber Duck Debugging\n\nExplain your code line by line to an inanimate object. Often, the act of explaining reveals the bug.\n\n## 2. Binary Search Debugging\n\nNarrow down the bug by systematically halving the code section you're examining.\n\n## 3. Log Strategically\n\nUse structured logging with context to trace the flow of execution.\n\n## 4. Reproduce First\n\nAlways try to reproduce the bug consistently before attempting to fix it.\n\n## 5. Read the Error Message\n\nIt sounds obvious, but many developers skip reading the full error message and stack trace.\n\n## 6. Use Breakpoints\n\nStep through code execution to understand the state at each point.\n\n## 7. Check Recent Changes\n\nUse git diff or git bisect to find when the bug was introduced.\n\n## 8. Isolate the Problem\n\nCreate a minimal reproduction that strips away everything except the buggy behavior.\n\n## 9. Take a Break\n\nSometimes stepping away from the screen is the most effective debugging technique.\n\n## 10. Ask for Help\n\nDon't spend hours struggling alone. A fresh pair of eyes can spot what you've been missing.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "David Kim",
+        "avatar": "https://ui-avatars.com/api/?name=David+Kim&size=64&background=ef4444&color=fff",
+        "role": "Full-Stack Developer"
+      },
+      "date": "Jan 18, 2026",
+      "readTime": "7 min read",
+      "category": "programming",
+      "tags": ["Programming", "Best Practices"],
+      "badgeColor": "red",
+      "featured": false
+    },
+    {
+      "id": 5,
+      "title": "Thriving as a Remote Developer in 2026",
+      "excerpt": "Tips and tools for staying productive, connected, and motivated while working from anywhere.",
+      "content": "Remote work is here to stay. Here's how to make the most of it.\n\n## Setting Up Your Space\n\nInvest in a good chair, a standing desk, and proper lighting. Your workspace directly impacts your productivity.\n\n## Communication Tools\n\nUse Slack for async communication, Zoom for meetings, and Loom for video updates.\n\n## Time Management\n\nUse the Pomodoro technique or time-blocking to maintain focus throughout the day.\n\n## Staying Connected\n\nJoin online communities, attend virtual meetups, and don't underestimate the power of a good coffee chat.\n\n## Work-Life Balance\n\nSet clear boundaries. When the workday ends, close your laptop and be present with your family.",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "Emily Rodriguez",
+        "avatar": "https://ui-avatars.com/api/?name=Emily+Rodriguez&size=64&background=3b82f6&color=fff",
+        "role": "Remote Team Lead"
+      },
+      "date": "Jan 17, 2026",
+      "readTime": "5 min read",
+      "category": "startups",
+      "tags": ["Career", "Remote Work"],
+      "badgeColor": "blue",
+      "featured": false
+    },
+    {
+      "id": 6,
+      "title": "The Ultimate VS Code Setup for 2026",
+      "excerpt": "Extensions, themes, and settings to supercharge your development workflow.",
+      "content": "VS Code remains the most popular code editor. Here's how to set it up for maximum productivity.\n\n## Must-Have Extensions\n\n- **GitHub Copilot** — AI pair programming\n- **Prettier** — Code formatting\n- **ESLint** — JavaScript linting\n- **GitLens** — Git supercharged\n- **Thunder Client** — REST API testing\n\n## Theme Recommendations\n\n- One Dark Pro\n- Dracula Official\n- GitHub Theme\n\n## Productivity Tips\n\nUse multi-cursor editing, custom snippets, and keyboard shortcuts to speed up your workflow.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "Alex Turner",
+        "avatar": "https://ui-avatars.com/api/?name=Alex+Turner&size=64&background=10b981&color=fff",
+        "role": "DevOps Engineer"
+      },
+      "date": "Jan 16, 2026",
+      "readTime": "6 min read",
+      "category": "devops",
+      "tags": ["Tools", "Productivity"],
+      "badgeColor": "emerald",
+      "featured": false
+    },
+    {
+      "id": 7,
+      "title": "Building Beautiful Data Dashboards with Modern CSS",
+      "excerpt": "Learn how to create stunning data visualizations using CSS Grid, Flexbox, and custom properties.",
+      "content": "Data dashboards don't have to be ugly. With modern CSS, you can build beautiful, responsive dashboards.\n\n## CSS Grid for Layout\n\nUse CSS Grid to create complex dashboard layouts that adapt to any screen size.\n\n## Flexbox for Components\n\nFlexbox is perfect for aligning data cards, charts, and navigation elements.\n\n## Custom Properties for Theming\n\nUse CSS variables to create dynamic themes that can be switched instantly.\n\n## Animations for Data\n\nSubtle animations can make data feel more alive and help users understand changes over time.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "Lisa Park",
+        "avatar": "https://ui-avatars.com/api/?name=Lisa+Park&size=64&background=a855f7&color=fff",
+        "role": "Frontend Developer"
+      },
+      "date": "Jan 14, 2026",
+      "readTime": "9 min read",
+      "category": "design",
+      "tags": ["CSS", "Data Visualization"],
+      "badgeColor": "purple",
+      "featured": false
+    },
+    {
+      "id": 8,
+      "title": "Web Security Essentials: Protecting Your Applications",
+      "excerpt": "From XSS to CSRF — a practical guide to securing your web applications against common vulnerabilities.",
+      "content": "Security should never be an afterthought. Here's what every developer needs to know.\n\n## OWASP Top 10\n\nFamiliarize yourself with the most common web vulnerabilities:\n\n1. Injection attacks\n2. Broken authentication\n3. Sensitive data exposure\n4. XML External Entities\n5. Broken access control\n6. Security misconfiguration\n7. Cross-site scripting (XSS)\n8. Insecure deserialization\n9. Using components with known vulnerabilities\n10. Insufficient logging\n\n## Best Practices\n\n- Always validate and sanitize user input\n- Use HTTPS everywhere\n- Implement Content Security Policy headers\n- Keep dependencies updated\n- Use parameterized queries",
+      "image": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=800&h=450&q=80",
+      "author": {
+        "name": "James Wilson",
+        "avatar": "https://ui-avatars.com/api/?name=James+Wilson&size=64&background=f97316&color=fff",
+        "role": "Security Engineer"
+      },
+      "date": "Jan 13, 2026",
+      "readTime": "8 min read",
+      "category": "programming",
+      "tags": ["Security", "Web Development"],
+      "badgeColor": "orange",
+      "featured": false
+    }
+  ]
+}
