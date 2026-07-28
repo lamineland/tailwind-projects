@@ -1,0 +1,170 @@
+{
+  "profile": {
+    "name": "Papa Lamine Sané",
+    "title": "Full-Stack Developer",
+    "tagline": "Hi, I'm Papa Lamine Sané",
+    "description": "A passionate Full-Stack Developer crafting beautiful and functional web experiences.",
+    "avatar": "https://ui-avatars.com/api/?name=Papa+Lamine+Sane&size=128&background=3b82f6&color=fff&bold=true",
+    "heroImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1920&q=80",
+    "email": "hello@papalaminesane.com",
+    "location": "Dakar, Senegal"
+  },
+  "skills": [
+    {
+      "icon": "🌐",
+      "name": "HTML & CSS",
+      "description": "Semantic markup and modern CSS layouts",
+      "level": 95,
+      "color": "blue"
+    },
+    {
+      "icon": "⚡",
+      "name": "JavaScript",
+      "description": "ES6+, async/await, DOM manipulation",
+      "level": 90,
+      "color": "yellow"
+    },
+    {
+      "icon": "⚛️",
+      "name": "React",
+      "description": "Components, hooks, state management",
+      "level": 85,
+      "color": "cyan"
+    },
+    {
+      "icon": "🎨",
+      "name": "Tailwind CSS",
+      "description": "Utility-first responsive design",
+      "level": 92,
+      "color": "teal"
+    },
+    {
+      "icon": "🐍",
+      "name": "Python",
+      "description": "Backend development and automation",
+      "level": 80,
+      "color": "green"
+    },
+    {
+      "icon": "🗄️",
+      "name": "Databases",
+      "description": "SQL, MongoDB, PostgreSQL",
+      "level": 78,
+      "color": "purple"
+    },
+    {
+      "icon": "🔧",
+      "name": "Git & GitHub",
+      "description": "Version control and collaboration",
+      "level": 88,
+      "color": "orange"
+    },
+    {
+      "icon": "☁️",
+      "name": "Cloud & DevOps",
+      "description": "AWS, Docker, CI/CD pipelines",
+      "level": 72,
+      "color": "indigo"
+    }
+  ],
+  "projects": [
+    {
+      "title": "E-Commerce Dashboard",
+      "description": "A full-stack e-commerce admin dashboard with real-time analytics, inventory management, and order tracking.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&h=300&q=80",
+      "tags": [
+        { "name": "React", "color": "blue" },
+        { "name": "Node.js", "color": "green" },
+        { "name": "MongoDB", "color": "purple" }
+      ],
+      "link": "#",
+      "featured": true
+    },
+    {
+      "title": "Social Media App",
+      "description": "A social networking platform with real-time messaging, post feeds, user profiles, and notification system.",
+      "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=600&h=300&q=80",
+      "tags": [
+        { "name": "Next.js", "color": "cyan" },
+        { "name": "TypeScript", "color": "indigo" },
+        { "name": "PostgreSQL", "color": "pink" }
+      ],
+      "link": "#",
+      "featured": true
+    },
+    {
+      "title": "Task Manager Pro",
+      "description": "A productivity app with drag-and-drop task boards, team collaboration, deadlines, and progress tracking.",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&h=300&q=80",
+      "tags": [
+        { "name": "Vue.js", "color": "yellow" },
+        { "name": "Firebase", "color": "red" },
+        { "name": "Tailwind", "color": "teal" }
+      ],
+      "link": "#",
+      "featured": true
+    },
+    {
+      "title": "Weather Forecast App",
+      "description": "A beautiful weather application with 7-day forecasts, interactive maps, and location-based alerts.",
+      "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=600&h=300&q=80",
+      "tags": [
+        { "name": "React", "color": "blue" },
+        { "name": "OpenWeather API", "color": "orange" },
+        { "name": "Chart.js", "color": "green" }
+      ],
+      "link": "#",
+      "featured": false
+    },
+    {
+      "title": "Fitness Tracker",
+      "description": "A health and fitness tracking app with workout logging, calorie counting, and progress charts.",
+      "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?auto=format&fit=crop&w=600&h=300&q=80",
+      "tags": [
+        { "name": "Next.js", "color": "cyan" },
+        { "name": "Prisma", "color": "indigo" },
+        { "name": "Tailwind", "color": "teal" }
+      ],
+      "link": "#",
+      "featured": false
+    },
+    {
+      "title": "Chat Application",
+      "description": "A real-time chat application with private messaging, group channels, file sharing, and emoji reactions.",
+      "image": "https://images.unsplash.com/photo-1611746872915-64382b5c76da?auto=format&fit=crop&w=600&h=300&q=80",
+      "tags": [
+        { "name": "Socket.io", "color": "purple" },
+        { "name": "Express", "color": "gray" },
+        { "name": "React", "color": "blue" }
+      ],
+      "link": "#",
+      "featured": false
+    }
+  ],
+  "social": [
+    {
+      "name": "Twitter",
+      "url": "#",
+      "hoverColor": "blue-500",
+      "icon": "twitter"
+    },
+    {
+      "name": "GitHub",
+      "url": "#",
+      "hoverColor": "gray-600",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "#",
+      "hoverColor": "blue-700",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Instagram",
+      "url": "#",
+      "hoverColor": "pink-600",
+      "icon": "instagram"
+    }
+  ]
+}
